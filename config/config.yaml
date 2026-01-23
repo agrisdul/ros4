@@ -7,6 +7,16 @@
 # include everything here, or create sub-config files to be
 # imported and merged with this one.
 
+hardware:
+  platform: opp
+  driverboards: gen2
+
+
+opp:
+  #Use the USB ports defined by your OS for the two STM32 boards
+  ports: COM3, COM4, COM5
+
+
 config:
   - config_switches.yaml
   - config_coils.yaml
@@ -21,7 +31,3 @@ playfields:
     default_source_device: bd_trough
     tags: default
 
-virtual_platform_start_active_switches:
-  - s_trough_1
-  - s_trough_2
-  - s_trough_3
