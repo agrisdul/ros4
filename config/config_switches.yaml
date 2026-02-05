@@ -3,11 +3,11 @@
 switches:
   #Playfield_switches
   s_bumper_left:
-    number: 1-0-3
+    number: 3-0-31
   s_bumper_right:
-    number: 1-0-8
+    number: 3-0-30
   s_left_lane:
-    number: 1-0-9
+    number: 3-0-29
   # cabinet switches
   s_start:
     number: 1-0-10
