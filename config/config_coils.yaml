@@ -3,3 +3,4 @@
 coils:
   c_trough_eject:
     number: 3-0-1
+    default_pulse_ms: 20
