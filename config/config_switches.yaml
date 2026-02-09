@@ -8,6 +8,7 @@ switches:
     number: 3-0-30
   s_left_lane:
     number: 3-0-29
+    tags: playfield_active
   # cabinet switches
   s_start:
     number: 1-0-10
@@ -35,10 +36,10 @@ switches:
     number: 3-0-20
     type: NC
   s_trough_6:
-    number: 3-0-21
+    number: 3-0-22
     type: NC
   s_trough_jam:
-    number: 3-0-22
+    number: 3-0-21 #sapratu logiku. obligati no receivera vienam vadam jaiet uz GND
     type: NC
   s_plunger_lane:
     number: 3-0-23

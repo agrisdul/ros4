@@ -32,7 +32,7 @@ playfields:
     tags: default
 
 machine:
-  balls_installed: 6 #How many balls are physically in your game
+  balls_installed: 1 #How many balls are physically in your game
   min_balls: 1 #How few balls can be accounted for before you can start a game
 
 
