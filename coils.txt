@@ -38,7 +38,7 @@ J6
 2) 3-0-2: c_bumper_left
 3) 3-0-3: c_bumper_right
 4) 3-0-4: c_scoop_eject
-5) 3-0-5: 
+5) 3-0-5: c_drop_reset
 6) 3-0-6:
 7) *KEY HV_E
 8) 3-0-7:
@@ -95,7 +95,7 @@ J3
 3) 3-0-29: s_left_lane
 4) 3-0-28: s_scoop
 5) GND
-6) 3-0-27: 
-7) 3-0-26: 
-8) 3-0-25: 
+6) 3-0-27: s_drop_front
+7) 3-0-26: s_drop_middle
+8) 3-0-25: s_drop_back
 9) 3-0-24: 

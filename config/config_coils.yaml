@@ -16,6 +16,9 @@ coils:
   c_scoop_eject:
     number: 3-0-4
     default_pulse_ms: 20 #samazinats
+  c_drop_reset: 
+    number: 3-0-5
+    default_pulse_ms: 20
   
   c_flipper_left:
     number: 1-0-1
@@ -53,3 +56,17 @@ flippers:
   right_flipper:
     main_coil: c_flipper_right
     activation_switch: s_flipper_right
+
+drop_targets:
+  front:
+    switch: s_drop_front
+  middle:
+    switch: s_drop_middle
+  back:
+    switch: s_drop_back
+    
+drop_target_banks:
+  vuk_bank:
+    drop_targets: front, middle, back
+    reset_coils: c_drop_reset
+    reset_on_complete: 1s
