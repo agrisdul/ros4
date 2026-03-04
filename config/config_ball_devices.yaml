@@ -3,7 +3,8 @@
 ball_devices:
   bd_plunger:
     ball_switches: s_plunger_lane
-    mechanical_eject: true
+    eject_coil: c_plunger
+    player_controlled_eject_event: s_launch_button_active
     eject_timeouts: 5s
   bd_trough:
     ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4, s_trough_5, s_trough_6, s_trough_jam
@@ -12,4 +13,7 @@ ball_devices:
     eject_timeouts: 3s
     tags: trough, home, drain
     jam_switch: s_trough_jam
-  
+  bd_scoop:
+    ball_switches: s_scoop
+    eject_coil: c_scoop_eject
+    eject_timeouts: 1s

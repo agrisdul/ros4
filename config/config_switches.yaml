@@ -9,6 +9,8 @@ switches:
   s_left_lane:
     number: 3-0-29
     tags: playfield_active
+  s_scoop:
+    number: 3-0-28
   # cabinet switches
   s_start:
     number: 1-0-10
@@ -19,6 +21,8 @@ switches:
   s_flipper_right:
     number: 1-0-2
     tags: right_flipper
+  s_launch_button:
+    number: 1-0-3
   # trought switches
   s_trough_1:
     number: 3-0-16
