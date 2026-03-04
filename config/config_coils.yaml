@@ -64,7 +64,6 @@ drop_targets:
     switch: s_drop_middle
   back:
     switch: s_drop_back
-    
 drop_target_banks:
   vuk_bank:
     drop_targets: front, middle, back
